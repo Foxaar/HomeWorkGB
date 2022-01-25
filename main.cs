@@ -8,7 +8,7 @@ Console.WriteLine("Исходный массив");
     string [] array = {"hello","2","world",":-)"};
 
     Console.WriteLine("Выборка");
-      for (int i=0;i<=array.Length;i++) {
+      for (int i=0;i<=array.Length-1;i++) {
          
         string arrStart = array[i];
         if (arrStart.Length <= 3) {
@@ -19,7 +19,11 @@ Console.WriteLine("Исходный массив");
         
 
         Console.Write(arrResult + " ");
+        
         }
+        
       }
+    Console.WriteLine("");
+    Console.WriteLine("Конец программы");
     }
 }
