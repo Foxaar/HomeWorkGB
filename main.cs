@@ -10,15 +10,15 @@ Console.WriteLine("Исходный массив");
     Console.WriteLine("Выборка");
       for (int i=0;i<=array.Length;i++) {
          
-        string a = array[i];
-        if (a.Length <= 3) {
+        string arrStart = array[i];
+        if (arrStart.Length <= 3) {
 
         string []result = (string [])array.Clone();
 
-        string b = result[i];
+        string arrResult = result[i];
         
 
-        Console.Write(b + " ");
+        Console.Write(arrResult + " ");
         }
       }
     }
